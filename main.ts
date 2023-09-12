@@ -29,6 +29,16 @@ let answers = await inquirer.prompt ([
         message:"Please enter your amount: "
     },
 ])
+if (answers.userID && answers.userpin){
+    const balance = Math.round(Math.random()*10000)
+    console.log (balance)
+    const enteredAmount = answers.amount
+    if (balance > enteredAmount){
+        const remaning = balance - enteredAmount
+        console.log(`Your remaning balance is ${remaning}`)
+    }
+    else {console.log ("Insufficient Balance")}
+}
 
 
 
