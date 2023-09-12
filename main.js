@@ -1,3 +1,4 @@
+#!/usr/bin/env Node
 import inquirer from "inquirer";
 let answers = await inquirer.prompt([
     {
