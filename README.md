@@ -1,4 +1,4 @@
-# Command Line ATM Machine (TypeScript)
+# Command Line ATM Machine
 
 A simple command-line ATM machine built with TypeScript. This project simulates basic ATM functionalities like checking balance, depositing money, withdrawing cash, and exiting the system.
 
